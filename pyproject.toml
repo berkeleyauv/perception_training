@@ -1,0 +1,11 @@
+[project]
+name = "perception-training"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["ultralytics", "numpy", "opencv-python-headless<5", "pillow", "pyyaml"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["dataset_tools*"]
