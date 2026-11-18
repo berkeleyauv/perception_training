@@ -6,3 +6,4 @@ runs/
 data/
 datasets/
 .DS_Store
+*.egg-info/
