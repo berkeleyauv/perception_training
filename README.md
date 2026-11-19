@@ -46,9 +46,6 @@ label are excluded from an export instead of getting invented labels.
 
 ## Schema
 
-Tracks the **draft v0.1** annotation contract from data_generation#13
-(`SCHEMA_VERSION = "0.1-draft"`). Allowed values live in
-`dataset_tools/schema_constants.py`.
 
 ## Not yet implemented
 
