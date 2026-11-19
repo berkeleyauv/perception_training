@@ -1,0 +1,11 @@
+# Smoke-test config: tiny run to confirm the pipeline trains end to end.
+model: yolo11n.pt        # pretrained checkpoint (downloads on first run)
+data: data/yolo_detect/dataset.yaml
+epochs: 2
+imgsz: 128
+batch: 8
+seed: 0
+device: cpu
+project: /Users/alishaahamed/perception_training/runs/smoke
+name: detect
+workers: 0
